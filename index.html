@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/cabecalho.css">
     <link rel="stylesheet" href="./assets/css/banner.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/rodape.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -33,5 +35,54 @@
             <button class="btn-banner">Ver Consoles</button>
         </div>
     </section>
+
+    <section class="footer">
+        <div class="conteudo">
+            <div class="campo__logo-footer">
+                <img class="logo-footer" src="./assets/img/logo.svg" alt="logo AluraGeek">
+                <img class="alura-footer" src="./assets/img/alura.svg" alt="logo alura">           
+                <img class="geek-footer" src=".//assets/img/geek.svg" alt="logo geek">
+            </div>
+            <div class="links">
+                <a class="link__item um" href="#">
+                    <span>Quem somos nós</span>
+                </a>
+                <a class="link__item dois" href="#">
+                    <span>Política de privacidade</span>
+                </a>
+                <a class="link__item tres" href="#">
+                    <span>Programa fidelidade</span>
+                </a>
+                <a class="link__item quatro" href="#">
+                    <span>Nossas lojas</span>
+                </a>
+                <a class="link__item cinco" href="#">
+                    <span>Quero ser franqueado</span>
+                </a>
+                <a class="link__item seis" href="#">
+                    <span>Anuncie aqui</span>
+                </a>
+            </div>
+            <div class="contato">
+                <p class="contato-text">Fale conosco</p>
+                <form action="">
+                    <div class="input-container">
+                        <div class="input-nome">
+                            <label class="input-label" for="nome">Nome</label>
+                            <input name="nome" id="nome" class="input" type="text"  data-tipo="nome">
+                        </div>
+                        <div class="input-mensagem">
+                            <input name="mensagem" id="mensagem" class="input-m" type="text"  data-tipo="mensagem" placeholder="Escreva sua mensagem">
+                        </div>
+                    </div>
+                    <button class="btn-contato">Enviar mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <span>Copyright © | Coded by Milleny </span>
+    </footer>
 </body>
 </html>
