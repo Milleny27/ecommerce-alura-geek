@@ -16,19 +16,15 @@
     padding: 1rem;
 }
 
+.logo-links {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
 .logo {
-    width: 40.02px;
-    height: 29.17px;
-}
-
-.alura {
-    width: 64px;
-    height: 19px;
-}
-
-.geek {
-    width: 62px;
-    height: 19px;
+    width: 176px;
+    height: 50px;
 }
 
 .lupa {
@@ -80,4 +76,28 @@
     height: 51px;
     background: #FFFFFF;
     color: #2A7AE4;
+}
+
+@media(max-width: 768px) {
+    .logo {
+        width: 22.74px;
+        height: 16.33px;
+    }
+    .campo__busca {
+        width: 272px;
+        height: 25px;
+    }
+    .input__busca {
+        width: 159px;
+        height: 16px;
+        font-size: 14px;
+    }
+    .lupa {
+        width: 17.05px;
+        height: 17.06px;
+    }
+    .login {
+        width: 166px;
+        height: 40px;
+    }
 }
