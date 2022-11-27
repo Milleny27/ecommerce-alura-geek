@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+
+.container {
+    display: grid;
+    grid-template: 306px 306px 306px/ 85%;
+    width: 100%;
+    height: 100%;
+    gap: 64px;
+    padding: 64px 0 64px 0;
+    justify-content: space-around;
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topo__titulo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.btn__topo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 110px;
+    height: 24px;
+    border: none;
+
+    background-color: #fff;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+}
+
+.btn-img {
+    margin: 10px;
+}
+
+.produtos__container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+    margin-top: .9rem;
+
+    width: 100%;
+    height: 252px;
+}
+
+.produtos__card {
+    background: #fdfdfd;
+    display: grid;
+    grid-template-areas: 
+        "card-imagem"
+        "card-corpo";
+    margin-right: 1rem;
+
+    width: 170px;
+    height: 252px;
+}
+
+.produtos__card___imagem {
+    grid-area: card-imagem;
+    width: 176px;
+    height: 174px;
+}
+
+.produtos__card___corpo {
+    display: grid;
+    grid-area: card-corpo;
+    grid-template-areas: 
+        "card-cabecalho"
+        "card-preco"
+        "card-btn";
+    grid-template-rows: 60px auto;
+}
+
+.produtos__card___titulo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: .2rem;
+
+    color: #464646;
+}
+
+.produtos__card___preco {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: .2rem;
+
+    color: #464646;
+}
+
+.btn-card {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+    margin-top: .2rem;
+
+    background-color: #fffFFf;
+
+    color: #2A7AE4;
+}

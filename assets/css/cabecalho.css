@@ -34,9 +34,7 @@
 
 .campo__logo {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     margin-right: 2rem;
 }
 
@@ -80,8 +78,8 @@
 
 @media(max-width: 768px) {
     .logo {
-        width: 22.74px;
-        height: 16.33px;
+        width: 100px;
+        height: 28px;
     }
     .campo__busca {
         width: 272px;
